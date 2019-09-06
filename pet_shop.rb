@@ -13,10 +13,3 @@ end
 def add_or_remove_cash(add, amount)
 @pet_shop[:admin][:total_cash] += amount
 end
-
-
-
-# def loan(lender, lendee, amount)
-# lender[:monies] -= amount
-# lendee[:monies] += amount
-# end
